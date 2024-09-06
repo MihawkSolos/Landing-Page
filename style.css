@@ -1,0 +1,43 @@
+* {
+    font-style: 'Roboto', sans-serif;
+}
+
+body {
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
