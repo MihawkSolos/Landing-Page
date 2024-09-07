@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 450px;
+    /* flex-shrink: 0; */
 }
 
 .header-logo {
@@ -256,7 +257,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Footer section */
